@@ -1,0 +1,84 @@
+.adbubbles_{
+  display: flex; flex-direction: column;  padding-top: 5rem; 
+}
+
+.adbubbles_border{
+  background-color: #ECB733;
+  border-radius: 50%;
+  margin-left: 1.5rem;
+      width: 195px;
+      height: 195px;
+      position: absolute; z-index: -1;
+}
+
+.adbubbles_big{
+  display: flex; flex-direction: column;   
+background-color: #ECB733;
+border-radius: 50%;
+    width: 255px;
+    height: 255px; 
+}
+
+.adbubbles_big_header{
+  text-align: center;
+font: normal normal 800 51px/51px Montserrat;
+letter-spacing: 0px;
+padding-top: 1.5rem;
+color: #322780;
+}
+
+.adbubbles_big_text{
+  text-align: center;
+font: normal normal normal 18px/20px Montserrat;
+letter-spacing: 0px;
+padding-top: 1rem;
+color: #322780;
+}
+
+.adbubbles_big_click{
+  text-align: center;
+text-decoration: underline;
+font: normal normal 800 21px/22px Montserrat;
+letter-spacing: 0px;
+padding-top: 2rem;
+color: #FFFFFF;
+}
+
+
+.adbubbles_header{
+  text-align: center;
+font: normal normal 800 30px/30px Montserrat;
+letter-spacing: 0px;
+padding-top: 1.5rem;
+color: #322780;
+}
+
+
+.adbubbles_text{
+  text-align: center;
+font: normal normal 400 18px/20px Montserrat;
+letter-spacing: 0px;
+padding-top: 1rem;
+color: #322780;
+}
+
+
+.adbubbles_click{
+  text-align: center;
+text-decoration: underline;
+font: normal normal 800 21px/22px Montserrat;
+letter-spacing: 0px;
+padding-top: 2rem;
+color: #FFFFFF;
+}
+
+.adbubbles_row{
+  display: flex; flex-direction: row; justify-content: space-between; padding-top: 3rem;
+}
+
+.adbubbles_main_header{
+  text-align: center;
+font: normal normal 800 60px/46px Montserrat;
+letter-spacing: 0px;
+color: #322780;
+}
