@@ -1,0 +1,19 @@
+.nav_{
+  display: flex; flex-direction: row; justify-content: space-between;
+ padding-top: 2rem;
+}
+
+.nav_section-1, .nav_section-2, .nav_section-3{
+  width: 33.33%;
+}
+
+.nav_section-2{display: flex; justify-content: center;}
+
+
+.nav_section-3{display: flex; justify-content: end;
+
+}
+
+.nav_section-3--img{
+  padding-right: 2rem;
+}
