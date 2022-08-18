@@ -1,0 +1,26 @@
+.offertext_{
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+}
+
+.offertext_header{
+  text-align: left;
+font: normal normal 800 50px/60px Montserrat;
+letter-spacing: 0px;
+color: #ECB733;
+opacity: 1;
+}
+
+.offertext_text{
+  text-align: left;
+font: normal normal 400 18px/30px Montserrat;
+letter-spacing: 0px;
+color: #322780;
+}
+
+.offertext_div{
+  display: flex;
+  flex-direction: column;
+  width: 518px;
+}
