@@ -1,0 +1,40 @@
+.req_{
+display: flex;
+flex-direction: column;
+
+}
+
+.req_header{
+text-align: left;
+font: normal normal 800 50px/60px Montserrat;
+letter-spacing: 0px;
+color: #ECB733;
+opacity: 1;
+}
+
+.req_flex{
+display: flex;
+flex-direction: row;
+}
+
+.req_box{
+display: flex;
+flex-direction: column;
+}
+
+.req_button{
+background: #ECB733 0% 0% no-repeat padding-box;
+border-radius: 40px;
+opacity: 1;
+width: 350px;
+height: 56px;
+border: none;
+}
+
+.req_text{
+text-align: center;
+font: normal normal 400 18px/30px Montserrat;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
