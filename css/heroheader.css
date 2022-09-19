@@ -3,7 +3,7 @@
 }
 
 .heroheader_section{
-  width: 55%; padding-top: 6.5rem; display: flex; flex-direction: column;
+  width: 55%; padding-top: 6.5rem; display: flex; flex-direction: column;     position: absolute;
 }
 
 .heroheader_section-div--1{
@@ -22,5 +22,114 @@ color: #FFFFFF;
 }
 
 .heroheader_img{
-  padding-top: 5rem;
+padding-top: 5rem;
+    overflow: hidden;
+    margin-left: auto;
+    display: flex;
+    justify-content: end;
+    margin-right: calc(10px + (80 - 10) * ((100vw - 1200px) / (1920 - 1000)));
 }
+
+.theimage{
+   height: 1123px;
+}
+
+.theimage2{
+  object-fit: cover; position: absolute; min-height: 491px; width: 580px; z-index: -1; transform: translate(10%, -18%);
+}
+
+@media (min-width:650px) and (max-width:1250px) {
+  
+.heroheader_img{
+  padding-top: 21rem;
+  margin-right: 2rem;
+}
+
+.heroheader_img img{
+  width: 550px;
+}
+
+.heroheader_section{
+  padding-left: 2rem;
+  padding-top: 3.5rem;
+}
+.heroheader_section-div--1{
+  font: normal normal 800 62px/64px Montserrat;
+  
+}
+
+.heroheader_section-div--2{
+  font: normal normal 300 43px/43px Montserrat;
+}
+
+
+}
+
+@media (min-width:450px) and (max-width:650px) {
+  .heroheader_section{
+    width: 100%;
+    padding-top: 3.5rem;
+    width: 90%;
+    padding-left: 0;
+  }
+
+  .heroheader_section-div--1{
+    text-align: center;
+     font: normal normal 800 62px/64px Montserrat;
+  }
+  .heroheader_section-div--2{
+    text-align: center;
+    font: normal normal 300 43px/43px Montserrat;
+  }
+
+  .heroheader_img img{
+  width: 400px;
+}
+
+.heroheader_img{
+  padding-top: 28rem;
+  justify-content: center;
+}
+
+
+.theimage2{
+  width: 380px;
+  transform: translate(0, 0);
+}
+}
+
+@media (max-width:450px) {
+  .heroheader_section{
+    width: 100%;
+    padding-top: 3.5rem;
+  }
+
+  .heroheader_section-div--1{
+    text-align: center;
+     font: normal normal 800 50px/54px Montserrat;
+  }
+  .heroheader_section-div--2{
+    text-align: center;
+    font: normal normal 300 34px/30px Montserrat;
+  }
+
+  .heroheader_img img{
+  width: 300px;
+}
+
+.heroheader_img{
+  padding-top: 22rem;
+  justify-content: center;
+}
+
+.theimage{
+      height: 963px;
+}
+
+.theimage2{
+  width: 200px;
+  transform: translate(0, 0);
+}
+}
+
+

@@ -17,3 +17,27 @@
 .nav_section-3--img{
   padding-right: 2rem;
 }
+
+@media (min-width:650px ) and (max-width:1200px) {
+  .nav_section-3--img {
+        padding-right: 0.5rem;
+  }
+}
+
+@media   ( max-width:650px ) {
+  .nav_{
+    flex-direction: column;
+  }
+
+  .nav_section-2{
+    margin-inline: auto;
+  }
+
+  .nav_section-3{
+    margin-inline: auto;
+    justify-content: center;
+        padding-top: 1rem;
+  }
+  
+}
+

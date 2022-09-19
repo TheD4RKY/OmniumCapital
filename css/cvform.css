@@ -1,0 +1,83 @@
+.cvbox{
+  background-color: #ECB733;
+
+  height: 448px;
+}
+
+.cvheader{
+  text-align: center;
+font: normal normal 800 50px/60px Montserrat;
+letter-spacing: 0px;
+color: #FFFFFF;
+    padding-top: 2.5rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0;
+}
+
+.cvdescription{
+  width: 836px;
+text-align: center;
+font: normal normal 600 18px/30px Montserrat;
+letter-spacing: 0px;
+color: #322780;
+margin-inline: auto;
+}
+
+.cvbutton{
+  background: #322780 0% 0% no-repeat padding-box;
+    border-radius: 40px;
+    opacity: 1;
+    width: 350px;
+    height: 56px;
+    border: none;
+    margin-inline: auto;
+    font: normal normal 800 20px/58px Montserrat;
+letter-spacing: 0px;
+color: #FFFFFF;
+    margin-top: 2rem;
+opacity: 1;
+}
+
+.cvsmalltext{
+  width: 544px;
+height: 40px;
+text-align: center;
+font: normal normal 600 16px/20px Montserrat;
+padding-top: 0.5rem;
+letter-spacing: 0px;
+color: #322780;
+margin-inline: auto;
+}
+
+.overcvheader{
+  text-align: center;
+font: normal normal 800 50px/60px Montserrat;
+letter-spacing: 0px;
+color: #322780;
+margin-bottom: 2rem;
+margin-top: 7rem;
+}
+
+.overcvdescription{
+  margin-inline: auto;
+  width: 846px;
+height: 55px;
+text-align: center;
+font: normal normal 600 18px/30px Montserrat;
+letter-spacing: 0px;
+color: #322780;
+}
+
+.cvfile{
+  width: 600px;
+    height: 56px;
+    background: #CEA02C 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    display: block;
+    margin-inline: auto;
+    text-align: center;
+    font: normal normal bold 20px/57px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}

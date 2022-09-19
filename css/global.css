@@ -1,4 +1,18 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+
+
 .element_border{
-  width: 62.5%;
+  width: 1200px;
   margin: auto;
+}
+
+
+@media (max-width:1250px) {
+
+  .element_border{
+  width: 95%;
+  margin: auto;
+}
+
 }
