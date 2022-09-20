@@ -54,3 +54,22 @@ opacity: 1;
   height: 120px;
 
 }
+
+.req_bg{
+    height: 749px;
+  }
+
+
+@media (max-width:630px) {
+  .req_flex{
+    flex-direction: column;
+    align-items: center;
+  }
+  .req_box{
+    padding-top: 2rem;
+  }
+
+  .req_bg{
+    height: 1077px;
+  }
+}

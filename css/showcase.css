@@ -74,3 +74,9 @@ position: absolute;
 .box2{
   transform: translateY(158px);
 }
+
+@media (max-width:1250px) {
+  .showcase_box{
+          width: 100%;
+  }
+}

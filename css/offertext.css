@@ -25,3 +25,29 @@ color: #322780;
   flex-direction: column;
   width: 518px;
 }
+
+@media (max-width:1250px) {
+  .offerbox{
+    padding-top: 24rem !important;
+  }
+}
+
+@media (max-width:1013px) {
+  .offertext_ {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .offertext_header {
+    text-align: center;
+  }
+
+  .offertext_text{
+    text-align: center;
+  }
+  .offertext_div{
+    padding-top: 3rem;
+    width: auto;
+    padding: 10%;
+  }
+}

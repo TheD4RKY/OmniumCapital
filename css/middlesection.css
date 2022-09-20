@@ -61,6 +61,133 @@ color: #322780;
 
 @media (min-width:650px) and (max-width:1250px) {
 
-  
+  .middlesection_underdiv{
+        flex-direction: column;
 
+  }
+  
+  .middlesection_textbox{
+    width: 100%;
+    max-width: 100%;
+        z-index: 2;
+  }
+
+  .middlesection_textbox_normal{
+  text-align: center;
+  }
+  .middlesection_textbox_bold{
+  text-align: center;
+  }
+  .middlesection_textbox_underheader{
+  text-align: center;
+  }
+  .middlesection_textbox_header{
+  text-align: center;
+  }
+  .middlesection_underdiv {
+    margin-left: 0;
+  }
+  .middlesection_imgcont{
+    width: 100%;
+    margin-inline: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  .middleimg{
+    
+    padding-right: 12rem !important;
+  }
+}
+
+@media (min-width:1091px) and (max-width:1250px) {
+  .middleimg{
+    padding-top: 22rem;
+  }
+
+  
+}
+
+@media (min-width:750px) and (max-width:1090px) {
+  .middleimg{
+    padding-top: 31rem;
+  }
+}
+
+@media (min-width:650px) and (max-width:750px) {
+  .middleimg{
+    padding-top: 31rem;
+  }
+}
+
+
+@media (max-width:650px){
+
+  .middlesection_underdiv{
+        flex-direction: column;
+
+  }
+  
+  .middlesection_textbox{
+    width: 100%;
+    max-width: 100%;
+        z-index: 2;
+  }
+
+  .middlesection_textbox_normal{
+  text-align: center;
+  }
+  .middlesection_textbox_bold{
+  text-align: center;
+  }
+  .middlesection_textbox_underheader{
+  text-align: center;
+  }
+  .middlesection_textbox_header{
+  text-align: center;
+  }
+  .middlesection_underdiv {
+    margin-left: 0;
+  }
+  .middlesection_imgcont{
+    width: 100%;
+    margin-inline: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  .middleimg{
+    
+     
+    padding-right: 6rem !important; 
+  }
+}
+@media (min-width:555px) and (max-width:650px){
+  .middleimg{
+padding-top: 34rem; 
+}
+}
+
+@media (min-width:515px) and (max-width:555px){
+  .middleimg{
+padding-top: 36rem; 
+}
+}
+
+@media (min-width:455px) and (max-width:515px){
+  .middleimg{
+padding-top: 42rem; 
+}
+}
+
+@media (min-width:400px) and (max-width:455px){
+  .middleimg{
+padding-top: 48rem; 
+}
+}
+
+@media (min-width:300px) and (max-width:400px){
+  .middleimg{
+padding-top: 56rem; 
+}
 }
