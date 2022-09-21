@@ -80,15 +80,16 @@ opacity: 1;
     height: 1077px;
   }
   .req_button{
-    margin-top: 1rem;
+    margin-top: 2rem;
   }
 }
 
 @media (max-width:450px) {
   .req_button{
         width: 300px;
+        
   }
    .req_button{
-    margin-top: 1rem;
+    margin-top: 2rem;
   }
 }

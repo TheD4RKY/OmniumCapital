@@ -60,11 +60,11 @@ position: absolute;
   transform: translateX(194px);
 }
 .showcase2{
- transform: translate3d(-86px, 202px, 28px);
+ transform: translate3d(-86px, 202px, 0px);
 }
 
 .showcase3{
-  transform: translate3d(293px, 28px, 28px);
+  transform: translate3d(293px, 28px, 0px);
 }
 
 .box1{
@@ -83,7 +83,7 @@ position: absolute;
 
 @media (min-width:735px) and (max-width:1050px) {
   .showcase2{
-    transform: translate3d(-86px, 342px, 28px);
+    transform: translate3d(-86px, 342px, 0px);
   }
 
   .box1{
@@ -98,12 +98,12 @@ position: absolute;
 
 @media (max-width:735px) {
   .showcase1{
-    transform: translate3d(0px, 184px, 24px);
+    transform: translate3d(0px, 184px, 0px);
   }
 
   .showcase2{
     padding-top: 2rem;
-        transform: translate3d(0px, 471px, 28px);
+        transform: translate3d(0px, 471px, 0px);
   }
   .showcase_box{
     flex-direction: column;
@@ -120,7 +120,7 @@ position: absolute;
 
   .showcase3{
      
-    transform: translate3d(-2px, 205px, 28px);
+    transform: translate3d(-2px, 205px, 0px);
   }
   .showcase_text{
     text-align: center;

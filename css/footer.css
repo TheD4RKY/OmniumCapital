@@ -8,11 +8,24 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
- align-items: center;
+ align-items: start;
   
 }
 
 .copy_1 p{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+ text-align: center;
+font: normal normal 800 18px/22px Montserrat;
+letter-spacing: 0px;
+color: #322780;
+}
+
+.copy_3 p{
+   display: flex;
+  justify-content: end;
+  align-items: center;
  text-align: center;
 font: normal normal 800 18px/22px Montserrat;
 letter-spacing: 0px;
@@ -21,7 +34,7 @@ color: #322780;
 
 .copy_2{
   display: flex;
-  justify-content: end;
+  justify-content: center;
   align-items: center;
 }
 
@@ -43,9 +56,22 @@ color: #322780;
     grid-template-columns: 1fr;
   }
 
-  .copy_2{
+  .copy_1{
   
   justify-content: center;
   align-items: center;
+}
+
+ .copy_2{
+  
+  justify-content: center;
+  align-items: center;
+}
+
+ .copy_3{
+  
+  justify-content: center;
+  align-items: center;
+      margin-inline: auto;
 }
 }

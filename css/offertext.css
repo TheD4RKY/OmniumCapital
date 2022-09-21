@@ -11,6 +11,7 @@ font: normal normal 800 50px/60px Montserrat;
 letter-spacing: 0px;
 color: #ECB733;
 opacity: 1;
+    padding-bottom: 2rem;
 }
 
 .offertext_text{
@@ -26,11 +27,17 @@ color: #322780;
   width: 518px;
 }
 
-@media (min-width:745px) and (max-width:1250px) {
+/* @media (min-width:977px) and (max-width:1250px) {
   .offerbox{
-    padding-top: 18rem !important;
+        padding-top: 25rem !important;
   }
 }
+
+@media (min-width:745px) and (max-width:977px) {
+  .offerbox{
+        padding-top: 18rem !important;
+  }
+} */
 
 
 
@@ -48,18 +55,18 @@ color: #322780;
     text-align: center;
   }
   .offertext_div{
-    padding-top: 3rem;
+    /* padding-top: 3rem; */
     width: auto;
    /*  margin: 10%; */
   }
 }
 @media (min-width:1013px) and (max-width:1107px) {
   .offerbox{
-    padding-top: 26rem !important;
+    /* padding-top: 26rem !important; */
   }
 }
 @media (max-width:755px) {
   .offerbox{
-    padding-top: 0;
+    padding-top: 0 !important;
   }
 }
