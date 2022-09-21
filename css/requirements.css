@@ -39,6 +39,13 @@ font: normal normal 800 20px/55px Montserrat;
 letter-spacing: 0px;
 color: #322780;
 margin-bottom: 2rem;
+z-index: 5;
+}
+
+.req_button:hover{
+  background-color: #322780;
+  color: white;
+  border:2px solid #ECB733;
 }
 
 .req_text{
@@ -71,5 +78,17 @@ opacity: 1;
 
   .req_bg{
     height: 1077px;
+  }
+  .req_button{
+    margin-top: 1rem;
+  }
+}
+
+@media (max-width:450px) {
+  .req_button{
+        width: 300px;
+  }
+   .req_button{
+    margin-top: 1rem;
   }
 }

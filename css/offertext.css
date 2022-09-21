@@ -26,11 +26,13 @@ color: #322780;
   width: 518px;
 }
 
-@media (max-width:1250px) {
+@media (min-width:745px) and (max-width:1250px) {
   .offerbox{
-    padding-top: 24rem !important;
+    padding-top: 18rem !important;
   }
 }
+
+
 
 @media (max-width:1013px) {
   .offertext_ {
@@ -48,6 +50,16 @@ color: #322780;
   .offertext_div{
     padding-top: 3rem;
     width: auto;
-    padding: 10%;
+   /*  margin: 10%; */
+  }
+}
+@media (min-width:1013px) and (max-width:1107px) {
+  .offerbox{
+    padding-top: 26rem !important;
+  }
+}
+@media (max-width:755px) {
+  .offerbox{
+    padding-top: 0;
   }
 }

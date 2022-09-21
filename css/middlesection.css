@@ -116,7 +116,7 @@ color: #322780;
 
 @media (min-width:650px) and (max-width:750px) {
   .middleimg{
-    padding-top: 31rem;
+    padding-top: 28rem;
   }
 }
 
@@ -170,7 +170,7 @@ padding-top: 34rem;
 
 @media (min-width:515px) and (max-width:555px){
   .middleimg{
-padding-top: 36rem; 
+padding-top: 38rem;
 }
 }
 
@@ -189,5 +189,7 @@ padding-top: 48rem;
 @media (min-width:300px) and (max-width:400px){
   .middleimg{
 padding-top: 56rem; 
+padding-right: 0 !important;
+margin-right: 6rem;
 }
 }

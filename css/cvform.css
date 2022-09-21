@@ -1,6 +1,6 @@
 .cvbox{
   background-color: #ECB733;
-
+padding-bottom: 2rem;
   height: 448px;
 }
 
@@ -36,6 +36,12 @@ letter-spacing: 0px;
 color: #FFFFFF;
     margin-top: 2rem;
 opacity: 1;
+}
+
+.cvbutton:hover{
+  background-color: #ECB733;
+  color: #322780;
+  border:2px solid #322780;
 }
 
 .cvsmalltext{
@@ -80,4 +86,34 @@ color: #322780;
     letter-spacing: 0px;
     color: #FFFFFF;
     opacity: 1;
+}
+
+.overcvdescription{
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width:945px) {
+  
+  .cvdescription{
+    width: 95% ;
+  }
+
+}
+
+
+@media (max-width:745px) {
+  
+  .cvfile{
+    width: 95%;
+  }
+.cvsmalltext {
+  width: 95%;
+}
+
+.cvbox{
+  width: 100% !important;
+      height: 100%;
+    padding-bottom: 3rem;
+}
 }
